@@ -1,5 +1,3 @@
-A kód egy hibával indul, ami a 2. feladat megoldásával oldható majd meg.
-
 A feladat olyan backend írása a már meglévő projektbe, amely a Kreta rendszerben lévő összes szülő adatát adja vissza, illetve egy adott Guid id alapján az adott szülő adatát adja vissza!
 
 Készítse el a Szülő (Parent) osztályt! A szülőket egy Guid id-vel azonosítjuk, minden szülőnek ismert a neve, neme és lakcíme (egy string típusú változóban tárolható).
