@@ -1,5 +1,4 @@
-﻿using Kreata.Backend.Datas.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Kreata.Backend.Context
 {
@@ -7,10 +6,6 @@ namespace Kreata.Backend.Context
     {
         public static void Seed(this ModelBuilder modelBuilder)
         {
-            List<Student> students = new List<Student>();
-
-            // Students
-            modelBuilder.Entity<Student>().HasData(students);
         }
     }
 }
